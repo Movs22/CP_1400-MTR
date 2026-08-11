@@ -1,0 +1,48 @@
+{
+    "positionDefinitions": [
+        {
+            "name": "all",
+            "positions": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            ],
+            "positionsFlipped": []
+        },
+        {
+            "name": "reverse",
+            "positions": [],
+            "positionsFlipped": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            ]
+        },
+        {
+            "name": "floor",
+            "positions": [
+                {
+                    "x": 0.0,
+                    "y": 3.0,
+                    "z": 3.0
+                }
+            ],
+            "positionsFlipped": []
+        },
+        {
+            "name": "floor_reverse",
+            "positions": [],
+            "positionsFlipped": [
+                {
+                    "x": 0.0,
+                    "y": 3.0,
+                    "z": 3.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "parts": [
+        {
+            "names": [
+                "Bogeystruta00211"
+            ],
+            "positionDefinitions": [
+                "reverse"
+            ],
+            "condition": "NORMAL",
+            "renderStage": "EXTERIOR",
+            "type": "NORMAL"
+        }
+    ],
+    "modelYOffset": 1.0,
+    "gangwayInnerSideResource": "",
+    "gangwayInnerTopResource": "",
+    "gangwayInnerBottomResource": "",
+    "gangwayOuterSideResource": "",
+    "gangwayOuterTopResource": "",
+    "gangwayOuterBottomResource": "",
+    "gangwayWidth": 1.5,
+    "gangwayHeight": 2.25,
+    "gangwayYOffset": 1.0,
+    "gangwayZOffset": 0.5,
+    "barrierInnerSideResource": "",
+    "barrierInnerTopResource": "",
+    "barrierInnerBottomResource": "",
+    "barrierOuterSideResource": "",
+    "barrierOuterTopResource": "",
+    "barrierOuterBottomResource": "",
+    "barrierWidth": 2.25,
+    "barrierHeight": 1.0,
+    "barrierYOffset": 1.25,
+    "barrierZOffset": 0.25
+}

@@ -1,0 +1,139 @@
+{
+  "vehicles": [
+    {
+      "id": "vitor2005_cp1400_forward",
+      "name": "CP 1400 Locomotive (Forward)",
+      "color": "e25825",
+      "transportMode": "TRAIN",
+      "length": 12.5,
+      "width": 2,
+      "bogie1Position": -3.4000000000000004,
+      "bogie2Position": 3.4000000000000004,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "The CP Class 1400 are a series of 67 diesel-electric locomotives built for the Portuguese Railways (CP) between 1967 and 1969. They have a top speed of 105 km/h.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/CP_Class_1400",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "mtr:cp1400/cp1400",
+          "modelPropertiesResource": "mtr:properties_main.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        },
+        {
+          "modelResource": "mtr:cp1400/cp1400.bbmodel",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_floor_reverse.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_boggie2.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_boggie1.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "cp1400",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0,
+      "scriptId": "cp1400"
+    },
+    {
+      "id": "vitor2005_cp1400_backward",
+      "name": "CP 1400 Locomotive (Backwards)",
+      "color": "e25825",
+      "transportMode": "TRAIN",
+      "length": 12.5,
+      "width": 2,
+      "bogie1Position": -3.4000000000000004,
+      "bogie2Position": 3.4000000000000004,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "description": "The CP Class 1400 are a series of 67 diesel-electric locomotives built for the Portuguese Railways (CP) between 1967 and 1969. They have a top speed of 105 km/h.",
+      "wikipediaArticle": "https://en.wikipedia.org/wiki/CP_Class_1400",
+      "tags": [],
+      "models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "mtr:cp1400/cp1400",
+          "modelPropertiesResource": "mtr:properties_main2.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        },
+        {
+          "modelResource": "mtr:cp1400/cp1400.bbmodel",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_floor.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_boggie1.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:cp1400/cp1400.obj",
+          "textureResource": "",
+          "modelPropertiesResource": "mtr:properties_boggie2.json",
+          "positionDefinitionsResource": "mtr:definition.json",
+          "flipTextureV": true
+        }
+      ],
+      "hasGangway1": false,
+      "hasGangway2": false,
+      "hasBarrier1": false,
+      "hasBarrier2": false,
+      "legacyRiderOffset": 0,
+      "bveSoundBaseResource": "cp1400",
+      "legacySpeedSoundBaseResource": "",
+      "legacySpeedSoundCount": 1,
+      "legacyUseAccelerationSoundsWhenCoasting": false,
+      "legacyConstantPlaybackSpeed": false,
+      "legacyDoorSoundBaseResource": "",
+      "legacyDoorCloseSoundTime": 0,
+      "scriptId": "cp1400"
+    }
+  ],
+  "signs": [],
+  "rails": [],
+  "objects": [],
+  "lifts": [],
+  "vehicleScripts": [
+        {
+            "id": "cp1400",
+            "prependExpressions": [],
+            "scriptLocations": ["mtr:cp1400_rev.js"]
+        }
+    ]
+}

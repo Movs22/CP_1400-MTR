@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 15,
+     "description": [
+      {"text": "ResourcePack done by ", "color": "green"},
+      {"text": "Vitor2005", "color": "gold", "bold": true}
+]
+  }
+}

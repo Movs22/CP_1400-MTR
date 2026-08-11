@@ -1,0 +1,107 @@
+{
+	"cp1400_20_air_brake_1": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_air_brake_1",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_air_brake_2": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_air_brake_2",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_compressor": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_compressor",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_ebrake_hiss": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_ebrake_hiss",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_eng_hi": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_eng_hi",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_eng_mid": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_eng_mid",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_eng_lo": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_eng_lo",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_idle": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_idle",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_rev_0": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_rev_0",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_rev_1": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_rev_1",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_rev_1a": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_rev_1a",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_rev_2": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_rev_2",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}, "cp1400_20_rev_3": {
+		"sounds": [
+			{
+				"name": "mtr:cp1400/20_rev_3",
+				"attenuation_distance": 64,
+				"volume": 0.5
+			}
+		]
+	}
+}
